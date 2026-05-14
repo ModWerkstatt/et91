@@ -1,0 +1,22 @@
+{
+    "name": "DB ET 91 / Class 491",
+    "summary": "The electric multiple units of the Class ET 31—designated Class ET 32 following their conversion—were designed as high-speed intercity railcars.",
+    "description": "The vehicles of the series ET 91 of the Deutsche Reichsbahn (DRG) were electric multiple units for special traffic. The vehicles, also known as the Glass Train, were glazed all around and on the roof sections. This gave the passengers a special all-round view. They were only used for excursions and special trips, especially in southern Germany and Austria. After the war one railcar could be taken over by the Deutsche Bundesbahn. From 1968 it was listed as BR 491 001, after an accident in 1995 it was taken out of service and is today in the museum.",
+    "localization" : {
+        "de": {
+            "name": "ET 91 / BR 491",
+            "summary": "Die Elektrotriebwagen der Baureihe ET 31, nach Umbau Baureihe ET 32, waren als Städte-Schnelltriebwagen konzipiert.",
+            "description": "Die Fahrzeuge der Baureihe ET 91 der Deutschen Reichsbahn (DRG) waren elektrische Triebwagen für Sonderverkehre. Die auch als Gläserner Zug bekannten Fahrzeuge waren rundum sowie an den Dachpartien verglast. Dadurch wurde den Fahrgästen eine besondere Rundumsicht geboten. Sie wurden nur zu Ausflugs- und Sonderfahrten eingesetzt, insbesondere in Süddeutschland und Österreich. Nach dem Krieg konnte noch ein Triebwagen von der Deutschen Bundesbahn übernommen werden. Ab 1968 wurde er als BR 491 001 geführt, nach einem Unfall im Jahre 1995 wurde er ausgemustert und ist heute im Museum erhalten."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Multiple Unit"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/et-91-glaeserner-zug"
+}
