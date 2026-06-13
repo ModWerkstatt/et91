@@ -1248,6 +1248,7 @@ return {
 				},
 				departureDelay = 2083,
 				engineTransportModes = { "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 				groupFileName = "menu_et91.mdl",
 				loadSpeed = 2,
 				reversible = false,
