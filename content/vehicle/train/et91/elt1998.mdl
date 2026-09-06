@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 19.720001220703125, 4.2202014923095703125, 7.75, },
-			bbMin = { -19.720001220703125, -4.2202014923095703125, -3.4727108478546142578125, },
+			bbMax = { 19.72, 4.2202, 7.75, },
+			bbMin = { -19.72, -4.2202, -3.47271, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 10.30700016021728515625, 1.49800002574920654296875, 3.0380001068115234375, },
+				halfExtents = { 10.307, 1.498, 3.038, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.0380001068115234375, 1, },
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.038, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -27,23 +27,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell1_lod0.msh",
 									name = "bogie1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.79610002040863037109375, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7961, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.79309999942779541015625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7931, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie1_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.805385589599609375, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.80539, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -51,23 +51,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell2_lod0.msh",
 									name = "bogie2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562000274658203125, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.55289995670318603515625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5529, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie2_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.073733806610107421875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.07373, 0, 0, 1, },
 						},
 						{ 
 							animations = { 
@@ -389,23 +389,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell1_lod1.msh",
 									name = "bogie1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.79610002040863037109375, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7961, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.79309999942779541015625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7931, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie1_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.805385589599609375, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.80539, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -413,23 +413,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell2_lod1.msh",
 									name = "bogie2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562000274658203125, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.55289995670318603515625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5529, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie2_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.073733806610107421875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.07373, 0, 0, 1, },
 						},
 						{ 
 							animations = { 
@@ -707,23 +707,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell1_lod2.msh",
 									name = "bogie1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.79610002040863037109375, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7961, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.79309999942779541015625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7931, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie1_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.805385589599609375, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.80539, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -731,23 +731,23 @@ return {
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/drehgestell2_lod2.msh",
 									name = "bogie2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271006882190704345703125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.271007, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562000274658203125, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5562, 0, 0.415881, 1, },
 								},
 								{ 
 									materials = { "mat/rumpf_35_1.mtl", },
 									mesh = "msh/rad_lod2.msh",
 									name = "a4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.55289995670318603515625, 0, 0.4158809185028076171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5529, 0, 0.415881, 1, },
 								},
 							},
 							name = "bogie2_grp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.073733806610107421875, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.07373, 0, 0, 1, },
 						},
 						{ 
 							animations = { 
@@ -914,7 +914,7 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("elT1998_desc") .. _("single_vehicle"),
+				description = _("elT1998_descsingle_vehicle"),
 				name = _("elT1998_name"),
 			},
 			emissions = { 
@@ -929,8 +929,13 @@ return {
 					speed = -1,
 				},
 			},
+			extent = { 
+				bbMax = { 10.307, 1.498, 6.076, },
+				bbMin = { -10.307, -1.498, 0, },
+			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.8,
+				curveSpeedScale = 1,
 				engines = {
 					{ 
 						power = 390,
@@ -938,22 +943,17 @@ return {
 						type = "ELECTRIC",
 					},
 				},
-				friction = 0.0199999995529651641845703125,
-				topSpeed = 33.333332061767578125,
-				weightEmpty = 51000,
-				weightMaxPayload = 0,
+				friction = 0.02,
+				topSpeed = 33.3333,
+				weightEmpty = 50800,
+				weightMaxPayload = 3700,
 			},
-			extent = { 
-				bbMax = { 10.30700016021728515625, 1.49800002574920654296875, 6.076000213623046875, },
-				bbMin = { -10.30700016021728515625, -1.49800002574920654296875, 0, },
-			},
-			lightSourceList = {
+			lightSourceList = { 
 				lights = {
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -961,17 +961,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
 						transf = { -0.985, 0, -0.174, 0, 0, -1, 0, 0, 0.174, 0, 0.985, 0, -9.72, 0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -979,17 +977,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
 						transf = { -0.985, 0, -0.174, 0, 0, -1, 0, 0, 0.174, 0, 0.985, 0, -9.72, -0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -997,17 +993,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
 						transf = { 0.985, 0, -0.174, 0, 0, 1, 0, 0, -0.174, 0, 0.985, 0, 9.72, 0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1015,17 +1009,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
 						transf = { 0.985, 0, -0.174, 0, 0, 1, 0, 0, -0.174, 0, 0.985, 0, 9.72, -0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1033,17 +1025,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
 						transf = { -0.985, 0, -0.174, 0, 0, -1, 0, 0, -0.174, 0, 0.985, 0, -9.72, 0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1051,17 +1041,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
 						transf = { -0.985, 0, -0.174, 0, 0, -1, 0, 0, -0.174, 0, 0.985, 0, -9.72, -0.8, 1.53, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1069,17 +1057,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
 						transf = { 0.985, 0, -0.174, 0, 0, 1, 0, 0, 0.174, 0, 0.985, 0, 9.72, 0.8, 1.64, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1087,18 +1073,16 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
 						transf = { 0.985, 0, -0.174, 0, 0, 1, 0, 0, 0.174, 0, 0.985, 0, 9.72, -0.8, 1.64, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMax = 89,
 						angleMin = 9,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 600,
-						fromTime = -1,
 						invertMask = false,
 						length = 11,
 						lightId = "",
@@ -1107,7 +1091,6 @@ return {
 						mode = "LIGHT",
 						radius = 4,
 						strength = 3,
-						toTime = -1,
 						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 3.75, 1, },
 						type = "CYLINDRICAL",
 						visibleFrom = -1,
@@ -1129,744 +1112,725 @@ return {
 				crewModels = { "::/characters/era_b_driver_rail/era_b_driver_rail.mdl", },
 				drivingLicense = "RAIL",
 				seats = {
-                -- drivers forward
-                {
-                    animation = "driving_upright",
-                    crew = true,
-                    forward = true,
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.1, 0.3, 1.2, 1, },
-                },
-                {
-                    animation = "sitting",
-                    crew = true,
-                    forward = true,
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.1, -0.3, 1.2, 1, },
-                },
-                -- drivers backward
-                {
-                    animation = "driving_upright",
-                    crew = true,
-                    forward = false,
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.1, 0.3, 1.2, 1, },
-                },
-                {
-                    animation = "sitting",
-                    crew = true,
-                    forward = false,
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.1, -0.3, 1.2, 1, },
-                },
-                -- tour guides
-                {
-                    animation = "idle",
-                    crew = true,
-                    forward = true,
-                    group = "body",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
-                },
-                {
-                    animation = "idle",
-                    crew = true,
-                    forward = false,
-                    group = "body",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
-                },
-
-                -- passengers forward
-
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0.6, 1.15, 1, },
-                },
-
-                -- doors
-
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_forward",
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, 0.6, 1.15, 1, },
-                },
-
-
-                -- passengers backwards
-
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 0.6, 1.15, 1, },
-                },
-
-                -- doors
-
-
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, 0.6, 1.15, 1, },
-                },                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, 0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, -1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, -0.6, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, 1.05, 1.15, 1, },
-                },
-                {
-                    animation = "sitting",
-                    group = "innen_lehnen_backward",
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, 0.6, 1.15, 1, },
-                },
+					{ 
+						animation = "driving_upright",
+						crew = true,
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.1, 0.3, 1.2, 1, },
+					},
+					{ 
+						animation = "sitting",
+						crew = true,
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.1, -0.3, 1.2, 1, },
+					},
+					{ 
+						animation = "driving_upright",
+						crew = true,
+						forward = false,
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.1, 0.3, 1.2, 1, },
+					},
+					{ 
+						animation = "sitting",
+						crew = true,
+						forward = false,
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.1, -0.3, 1.2, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						group = "body",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						forward = false,
+						group = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.45, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.1, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.4, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.7, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.5, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_forward",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.5, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.7, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.9, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.1, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.6, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.4, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.2, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.1, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.9, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.3, 0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, -1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, -0.6, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, 1.05, 1.15, 1, },
+					},
+					{ 
+						animation = "sitting",
+						group = "innen_lehnen_backward",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.1, 0.6, 1.15, 1, },
+					},
 				},
 			},
 			soundConfig = { 
@@ -1905,6 +1869,90 @@ return {
 				},
 				departureDelay = 2083,
 				engineTransportModes = { "ELECTRIC_TRAIN", },
+				entrances = {
+					{ 
+						path = {
+							{ -0.55, -3, 0.1, },
+							{ -0.55, -1.85, 0.1, },
+							{ -0.55, -1.6, 0.7, },
+							{ -0.55, -1, 1, },
+							{ -0.85, 0, 1.25, },
+							{ -0.85, 0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ 0.55, -3, 0.1, },
+							{ 0.55, -1.85, 0.1, },
+							{ 0.55, -1.6, 0.7, },
+							{ 0.55, -1, 1, },
+							{ 0.85, 0, 1.25, },
+							{ 0.85, 0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ 0.55, 3, 0.1, },
+							{ 0.55, 1.85, 0.1, },
+							{ 0.55, 1.6, 0.7, },
+							{ 0.55, 1, 1, },
+							{ 0.85, 0, 1.25, },
+							{ 0.85, -0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ -0.55, 3, 0.1, },
+							{ -0.55, 1.85, 0.1, },
+							{ -0.55, 1.6, 0.7, },
+							{ -0.55, 1, 1, },
+							{ -0.85, 0, 1.25, },
+							{ -0.85, -0.3, 1.25, },
+						},
+					},
+				},
+				entrances = {
+					{ 
+						path = {
+							{ -0.55, -3, 0.1, },
+							{ -0.55, -1.85, 0.1, },
+							{ -0.55, -1.6, 0.7, },
+							{ -0.55, -1, 1, },
+							{ -0.85, 0, 1.25, },
+							{ -0.85, 0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ 0.55, -3, 0.1, },
+							{ 0.55, -1.85, 0.1, },
+							{ 0.55, -1.6, 0.7, },
+							{ 0.55, -1, 1, },
+							{ 0.85, 0, 1.25, },
+							{ 0.85, 0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ 0.55, 3, 0.1, },
+							{ 0.55, 1.85, 0.1, },
+							{ 0.55, 1.6, 0.7, },
+							{ 0.55, 1, 1, },
+							{ 0.85, 0, 1.25, },
+							{ 0.85, -0.3, 1.25, },
+						},
+					},
+					{ 
+						path = {
+							{ -0.55, 3, 0.1, },
+							{ -0.55, 1.85, 0.1, },
+							{ -0.55, 1.6, 0.7, },
+							{ -0.55, 1, 1, },
+							{ -0.85, 0, 1.25, },
+							{ -0.85, -0.3, 1.25, },
+						},
+					},
+				},
 				filterTags = { "default", },
 				groupFileName = "menu_et91.mdl",
 				loadSpeed = 2,
